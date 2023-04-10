@@ -38,9 +38,9 @@ app.use('/refresh', require('./routes/refresh'));
 app.use('/logout', require('./routes/logout'));
 
 // app.use(verifyJWT);
-app.use('/following', require('./routes/following'));
-app.use('/followers', require('./routes/followers'));
-app.use('/userList', require('./routes/list'));
+// app.use('/following', require('./routes/following'));
+// app.use('/followers', require('./routes/followers'));
+// app.use('/userList', require('./routes/list'));
 
 app.use(errorHandler); //log errors to errorLog file
 
